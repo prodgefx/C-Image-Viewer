@@ -27,5 +27,5 @@ Replace <image.ext> with your raw RGB image file.
 ```
 📚 Notes
 
--> Input format must provide dimensions followed by raw RGB pixel data.\n
--> The viewer renders pixels manually, demonstrating low-level graphics rendering and manual pixel manipulation with SDL2.
+- Input format must provide dimensions followed by raw RGB pixel data.\n
+- The viewer renders pixels manually, demonstrating low-level graphics rendering and manual pixel manipulation with SDL2.
