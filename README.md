@@ -19,7 +19,7 @@ gcc -Wall -Wextra -g -o iv iv.c `sdl2-config --cflags --libs`
 
 Pipe an image file into the viewer:
 
-
+```bash
 cat <image.ext> | ./iv
 
 Replace <image.ext> with your raw RGB image file.
