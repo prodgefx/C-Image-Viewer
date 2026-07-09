@@ -15,7 +15,7 @@ Compile with `gcc` and link against SDL2:
 gcc -Wall -Wextra -g -o iv iv.c `sdl2-config --cflags --libs`
 
 ```
-🚀 Usage
+## 🚀 Usage
 
 Pipe an image file into the viewer:
 
@@ -25,7 +25,7 @@ cat <image.ext> | ./iv
 Replace <image.ext> with your raw RGB image file.
 
 ```
-📚 Notes
+## 📚 Notes
 
 - Input format must provide dimensions followed by raw RGB pixel data.\n
 - The viewer renders pixels manually, demonstrating low-level graphics rendering and manual pixel manipulation with SDL2.
