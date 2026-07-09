@@ -22,8 +22,6 @@ Pipe an image file into the viewer:
 ```bash
 cat <image.ext> | ./iv
 
-Replace <image.ext> with your raw RGB image file.
-
 ```
 ## 📚 Notes
 
